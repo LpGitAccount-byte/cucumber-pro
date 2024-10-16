@@ -1,12 +1,11 @@
-Feature: login functionality
+Feature: Login
 
-  Scenario: Successfull login with valid credentials
-    Given user launch a chrome browser
-    When user open an URL "https://admin-demo.nopcommerce.com/login"
-    And user enter a username as "admin@yourstore.com"
-    And user enter a password as "admin"
-    And click on login
-    Then page tittle should be "Dashboard / nopCommerce administration"
-    When user click on logout
-    Then page tittle should be "Your store. Login"
+  Scenario: Successful Login with Valid Credentials
+    Given User Launch Chrome browser
+    When User opens URL "http://admin-demo.nopcommerce.com/login"
+    And User enters Email as "admin@yourstore.com" and Password as "admin"
+    And Click on Login
+    Then Page Title should be "Dashboard / nopCommerce administration"
+    When User click on Log out link
+    Then Page Title should be "Your store. Login"
     And close browser

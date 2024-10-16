@@ -52,14 +52,8 @@
     <artifactId>cucumber-html</artifactId>
     <version>0.2.7</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>7.18.1</version>
-    <scope>test</scope>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+
+   
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
@@ -98,6 +92,13 @@
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.22.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.16.1</version>
+    <scope>test</scope>
 </dependency>
 
 
