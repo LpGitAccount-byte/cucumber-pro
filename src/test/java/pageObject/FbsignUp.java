@@ -93,11 +93,11 @@ public class FbsignUp {
 	//Sign in with valid credentials
 	
 	public void enteruserName(String user) {
-		userid.sendKeys("9028788990");
+		userid.sendKeys("");
 	}
 	
 	public void EnterValidPass(String pas1) {
-		passwrd.sendKeys("33909696");
+		passwrd.sendKeys("");
 	}
 	
 	public void ClickOnLoginButton() {
