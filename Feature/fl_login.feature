@@ -11,11 +11,4 @@ Feature: create a new user to facebook
  
  Scenario Outline: facebook login with valid credentials
  Given user launch a chrome browser
- When user open an URL "https://www.facebook.com/login/"
- When user enter a uasername "<userid>"
- And user enter a password "<password>"
- And click on login
- Then fb page tittle should be "Facebook"
-Examples: 
- |userid|password|
- |9028788990|33909696|
+ When 
